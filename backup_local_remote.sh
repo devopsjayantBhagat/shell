@@ -39,7 +39,7 @@ done
 
 cd /backup/$year/$month/$name
 
-cp -rv *gz  /www/vhosts/comparedthin/app/webroot/backup
+cp -rv *gz  /www/vhosts/domain.in/app/webroot/backup
 
 #This is for remote executing Shell to download gzip file
 ssh -p3768 root@123.23.22.22 "cd ~/.jayant; ./bkp.sh;"
